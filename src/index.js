@@ -8,5 +8,5 @@ const startButton = document.getElementById('macro-start');
 
 startButton.addEventListener('click', (event) => {
   console.log('event', event);
-  // move the mouse to the top left and click every 5 seconds
+  // move the mouse to the top left and click every 3000-6000 milliseconds (random`)
 });
